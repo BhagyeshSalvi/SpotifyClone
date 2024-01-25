@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Varela+Round&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #12981d;
+}
+nav{
+     font-family: 'Roboto', sans-serif;;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    height: 50px;
+    
+}
+
+ nav ul li{
+    padding: 0px 9px;
+}
+
+.logo img{
+    width: 40px;
+    padding: 0px 5px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    
+}
+
+.container{
+    height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 13px;
+    padding: 20px;
+    background-image: url('Images/bg.png') ;
+    background-size: cover;
+    background-position: center; /* You can adjust this as needed */
+   
+      
+
+}
+
+.footer{
+    position: sticky;
+    bottom: 0;
+    height: 89px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+}
+
+
+#progressBar{
+    width: 75vw; 
+    cursor: pointer; 
+}
+
+.icons{
+    margin: 10px 0px;
+    
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+.songItem{
+    display: flex;  
+    height: 45px;
+    width: 50%;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.songItemContainer{
+    margin-top: 50px;
+}
+.songItem img{
+    width: 40px;
+    margin: 0 15px;
+    border-radius: 24px;
+}
+
+.songPlay{
+    margin-right: 5px;
+    margin-left: -5px;
+}
+/* .timestamp{
+    margin:10px 10px; 
+} */
+.songlist{
+    width: 60%;
+}
+
+.container i{
+    cursor: pointer;
+}
+
